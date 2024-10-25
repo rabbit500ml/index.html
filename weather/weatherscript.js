@@ -120,7 +120,6 @@ weatherWidget.init = function (settings) {
         rain: [
           "I wonder if the giant hole in Rev's house ever floods.",
           "Soupy weather. (That's what my grandma says at least.)",
-          "I hope Rev's having a nice shower."
           "I wonder if my boss has an umbrella... maybe I can offer to share...?"
         ],
         snow: [
