@@ -108,9 +108,9 @@ weatherWidget.init = function (settings) {
       //generate a custom message from an array
       const customMessages = {
         clear: [
-          "It's a clear day at Rev's House! Perfect for outdoor activities.",
-          "Sunshine at Rev's House! Time for a picnic!",
-          "A bright, beautiful day at Rev's House. Enjoy the outdoors!"
+          "Days like this make me wish my office had windows ;0;",
+          "Ahh, it's so nice out, I wonder if my boss wants to go for a picnic...",
+          "How much sunscreen would it take to make me look like a ghost?"
         ],
         clouds: [
           "Cloudy skies at Rev's House. Great weather for staying cozy indoors.",
@@ -118,34 +118,35 @@ weatherWidget.init = function (settings) {
           "Cloudy but calm at Rev's House. A good day for a stroll."
         ],
         rain: [
-          "It's raining at Rev's House. Grab your umbrella if you're heading out!",
-          "Rainy days at Rev's House are best spent indoors with a book.",
-          "Showers at Rev's House. Stay dry and enjoy some tea!"
+          "I wonder if the giant hole in Rev's house ever floods.",
+          "Soupy weather. (That's what my grandma says at least.)",
+          "I hope Rev's having a nice shower."
+          "I wonder if my boss has an umbrella... maybe I can offer to share...?"
         ],
         snow: [
-          "Snowfall at Rev's House. Bundle up if you're going outside!",
-          "Winter wonderland at Rev's House! Perfect for snowball fights.",
-          "Snowy scenes at Rev's House. A good day for hot cocoa!"
+          "Ahh, perfect weather for tea and a book! Alas, employment.",
+          "Rev threw a snowball at me on the way to our study session... I almost died",
+          "What a bad day to be in Canada..."
         ],
         thunderstorm: [
-          "A storm is brewing at Rev's House. Best to stay indoors!",
-          "Thunder and lightning at Rev's House. Cozy up and stay safe!",
-          "It's stormy at Rev's House. Perfect for some indoor fun!"
+          "AAAAAAAAAH WHAT WAS THAT",
+          "My boss loves days like this. Says it's 'very Frankenstein-esque'",
+          "Is the lightning going to keep going... Should I sleep at work..."
         ],
         mist: [
-          "Foggy conditions at Rev's House. Drive safely if you’re on the road!",
-          "Misty mornings at Rev's House create a magical atmosphere.",
-          "Fog rolls in at Rev's House. A good day for quiet reflection."
+          "REV WAS HERE",
+          "The world feels slow like this...",
+          "Wasn't 'The Mist' the name of some horror movie... or was that fog?"
         ],
         fog: [
-          "Foggy conditions at Rev's House. Drive safely if you’re on the road!",
-          "Thick fog at Rev's House. Visibility is low, so take care!",
-          "Fog covers Rev's House, giving everything a serene feel."
+          "Aaaah I have to drive home in this...?",
+          "Rev's house probably gains 10 scary points on days like this...",
+          "REV HERE THIS WEATHER'S GREAT FOR HIDING THINGS IN THE FOREST"
         ],
         default: [
-          "The weather is unpredictable at Rev's House. Stay prepared!",
-          "Weather at Rev's House keeps you on your toes. Be ready for anything!",
-          "Who knows what to expect at Rev's House? Stay alert!"
+          "Could use another coffee...",
+          "Ah I really should study a little more, midterms are so close...",
+          "There's a weird dog following me... He seems friendly?"
         ]
       };
 
