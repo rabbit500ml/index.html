@@ -7,7 +7,7 @@ const revenueExpensesChart = new Chart(ctx, {
         datasets: [
           {
             label: 'Revenue ($)',
-            data: [500, 1000, 750, 1300, 900], // Revenue values
+            data: [0, 0, 0, 0, 0], // Revenue values
             borderColor: 'rgba(54, 162, 235, 1)', // Line color for revenue
             backgroundColor: 'rgba(54, 162, 235, 0.2)', // Transparent fill
             borderWidth: 2,
@@ -19,7 +19,7 @@ const revenueExpensesChart = new Chart(ctx, {
           },
           {
             label: 'Expenses ($)',
-            data: [300, 400, 500, 700, 600], // Expense values
+            data: [300, 0, 0, 0, 0], // Expense values
             borderColor: 'rgba(255, 99, 132, 1)', // Line color for expenses
             backgroundColor: 'rgba(255, 99, 132, 0.2)', // Transparent fill
             borderWidth: 2,
