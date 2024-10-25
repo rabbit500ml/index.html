@@ -113,9 +113,9 @@ weatherWidget.init = function (settings) {
           "How much sunscreen would it take to make me look like a ghost?"
         ],
         clouds: [
-          "Cloudy skies at Rev's House. Great weather for staying cozy indoors.",
-          "Overcast at Rev's House. Perfect for a movie marathon!",
-          "Cloudy but calm at Rev's House. A good day for a stroll."
+          "I wonder if my plants are getting enough sun...",
+          "I wish the government could actually change the weather...",
+          "How are my allergies still acting up with such plain weather?"
         ],
         rain: [
           "I wonder if the giant hole in Rev's house ever floods.",
